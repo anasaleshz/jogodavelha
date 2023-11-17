@@ -9,7 +9,7 @@ const JOGADOR_0 = "0";
 
 let jogoacabou = false;
 
-document.addEventListener("click". (event) => {
+document.addEventListener("click", (event) => {
     if (event.target.matches(".celula") && !jogoacabou) {
         jogar(event.target.id);
     }
