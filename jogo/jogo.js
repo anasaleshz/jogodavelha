@@ -11,7 +11,7 @@ let jogoacabou = false;
 
 document.addEventListener("click". (event) => {
     if (event.target.matches(".celula") && !jogoacabou) {
-        JOGADOR_0(event.target.id);
+        jogar(event.target.id);
     }
 });
 
